@@ -16,13 +16,13 @@ PROGRAM-ID. sample.
 ENVIRONMENT DIVISION.
 INPUT-OUTPUT SECTION.
 FD F1.
-~~~
+~ ~ ~
 DATA DIVISION.
 01 CNT PIC 9(04).
 ~~~
 PROCEDURE DIVISION.
 MAIN.
-    ~~~
+    ~ ~ ~
     STOP RUN.
 ```
 #### 導入
@@ -50,7 +50,7 @@ MAIN.
 DATA DIVISION.
 WORKING-STORGE SECTION.
 01 CNT PIC 9(04)
-~~~
+~ ~ ~
 ```  
  * 定義はデータ部で行なう
  * PIC ( PICTURE ) -宣言
