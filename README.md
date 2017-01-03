@@ -51,15 +51,15 @@ DATA DIVISION.
 WORKING-STORGE SECTION.
 01 CNT PIC 9(04)
 ~~~
-```
-
+```  
  * 定義はデータ部で行なう
  * PIC ( PICTURE ) -宣言
  * 9(02) -数値2桁(ゼロパディング)
  * X(02) -英数2桁
  * VALUE 初期化  
  `01 CNT PIC9(04) VALUE 1.`
- * 入れ子
+ * 入れ子  
+
  ```cobol
  ** こうして宣言するとメモリ上に並べて確保される
  01 DATE.
@@ -67,6 +67,7 @@ WORKING-STORGE SECTION.
       03 MM PIC 9(02).
       03 SS PIC 9(02).
  ```
+
 * 条件式
  * IF ELSE  
    * ELSE IFが無い  
