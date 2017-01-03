@@ -10,6 +10,7 @@
 ### 参考サイト
 [COBOLプログラミング基礎 (http://tallercolibri.com/)](http://tallercolibri.com/)
 ### COBOL基礎
+
 ```cobol
 IDENTIFICATION DIVISION.
 PROGRAM-ID. sample.
@@ -19,12 +20,13 @@ FD F1.
 ~ ~ ~
 DATA DIVISION.
 01 CNT PIC 9(04).
-~~~
+~ ~ ~
 PROCEDURE DIVISION.
 MAIN.
     ~ ~ ~
     STOP RUN.
 ```
+
 #### 導入
 * 部
  * 見出し部（IDENTIFICATION DIVISION）
